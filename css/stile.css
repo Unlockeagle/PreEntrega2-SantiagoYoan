@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&display=swap');
+
+* {
+    font-family: 'Libre Caslon Text', serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #02290ee7;
+    background-image: url(../img/bg-001.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode:soft-light;
+
+     
+}
+
+/* Inicio navbar */
+
+.navbar {
+    background-color: #13131350;
+    
+}
+
+.nav-link {
+    font-size: 2rem;
+    
+}
+
+.navbar__btn {
+    background-color: #f1f1f1;
+}
+
+.menu {
+    width: 90%;
+}
+
+.slide__nav {
+    background-image: url(../img/bg-001.jpg);
+}
+/* Fin navbar */
+
+
+.carousel-item img {
+    filter: brightness(0.4);
+}
+
+.carousel-item h1 {
+    font-size: 5rem;
+}
+
+.card__menu {
+    width: 90%;
+    background-color: #f1f1f1;
+}
+
+.card__img {
+    height: 120px;
+}
+
+
+.card__menu h5 {  
+    margin: 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: start;
+}
+
+.card__menu p {
+    margin: 8px;
+}
+
+.hero {
+    margin-top: 80px;
+    width: 90%;
+}
+
+.hero__img img {
+    border: #fafafa solid 2px;
+
+}
+
+/* Inicio Cards de menu */
+
+.card__menu {
+    color: #fafafa;
+    border: #fafafa solid 1px;
+    background-color: #f1f1f118;
+    
+}
+/* Fin Cards de menu */
+
+
+/* Inicio Nombre del menu  */
+.title__menu { 
+    margin: 24px 0px 0px 0px;
+}
+.title__menu h3 {
+    font-size: 5rem;
+}
+
+.title__menu{
+    font-size: 3rem;
+}
+
+.title__entrada span {
+    position: relative;
+
+}
+
+.title__entrada p span::before{
+    content: "";
+    background-color: #f1f1f1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 80%;
+    height: 5%;
+    margin: 0px 200px 15px 140px;
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.title__entrada p span::after{
+    content: "";
+    background-color: #f1f1f1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 5%;
+    margin: 0px 140px 15px 200px;
+    border-radius: 2px;
+    z-index: 1;
+}
+
+
+/* Fin Nombre del menu  */
+
+
+
+/* Inicio platos del menu */
+
+.conatiner__platos {
+    width: 100%;
+     
+}
+.card__platos {
+    background-color: #d8d8d818;
+    display: flex;
+    justify-content: start;
+    width: 520px;
+    padding: 10px 0px;
+    margin: 0px 0px 20px 0px;    
+    align-items: center;
+    border: #fafafa solid 1px;
+}
+
+.platos__img{
+    width: 20%;
+    margin-left: 20px;
+}
+.platos__img img {
+    width: 100px;
+}
+.platos__descripcion {
+    width: 60%;
+    
+}
+
+.platos__descripcion h3 {
+    font-size: 2rem;
+    text-align: start;
+}
+
+.platos__descripcion p {
+    font-size: 1rem;
+    text-align: start;
+}
+
+/* Fin platos del menu */
+
+
+
+
+
+
+
