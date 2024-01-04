@@ -52,12 +52,14 @@ body {
 }
 
 .card__menu {
-    width: 90%;
+    width: 100%;
     background-color: #f1f1f1;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .card__img {
-    height: 120px;
+    height: 150px;
 }
 
 
@@ -72,15 +74,17 @@ body {
     margin: 8px;
 }
 
+/* Inicio del Hero */
 .hero {
     margin-top: 80px;
-    width: 90%;
+    width: 100%;
 }
 
 .hero__img img {
     border: #fafafa solid 2px;
-
+    
 }
+/* Fin del Hero */
 
 /* Inicio Cards de menu */
 
