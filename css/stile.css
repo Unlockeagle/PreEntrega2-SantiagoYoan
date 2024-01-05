@@ -50,8 +50,11 @@ body {
     background-image: url(../img/bg-001.jpg);
 }
 /* Fin navbar */
+/* .hero {
+    padding: 0px 10px;
+} */
 .hero__carousel {
-    width: 50%;
+    width: 100%;
     
 }
 
@@ -62,8 +65,8 @@ body {
 }
 
 
-.hero__h1 h1 {
-    font-size: 5rem;
+.hero__text  h1 {
+    font-size: 10vw;
 }
 
 
