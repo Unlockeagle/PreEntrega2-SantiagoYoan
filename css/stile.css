@@ -1,7 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&display=swap');
+@font-face {
+    font-family: 'Gambarino-Regular';
+    src: url('../fonts/Gambarino-Regular.woff2') format('woff2'),
+         url('../fonts/Gambarino-Regular.woff') format('woff'),
+         url('../fonts/Gambarino-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+  
 
 * {
-    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Gambarino-Regular', serif;
 }
 
 html {
@@ -20,7 +29,7 @@ body {
 /* Inicio navbar */
 
 .navbar {
-    background-color: #13131350;
+    background-color: #052b15;
     
 }
 
@@ -30,30 +39,40 @@ body {
 }
 
 .navbar__btn {
-    background-color: #f1f1f1;
+    background-color: #e6e6e6;
 }
 
 .menu {
-    width: 90%;
+    width: 100%;
 }
 
 .slide__nav {
     background-image: url(../img/bg-001.jpg);
 }
 /* Fin navbar */
-
-
-.carousel-item img {
-    filter: brightness(0.4);
+.hero__carousel {
+    width: 50%;
+    
 }
 
-.carousel-item h1 {
+/* Inicio Caroulsel */
+.hero__img {
+    filter: brightness(0.5);
+    object-fit: contain;
+}
+
+
+.hero__h1 h1 {
     font-size: 5rem;
 }
 
+
+
+
+/* Fin Caroulsel */
 .card__menu {
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #e6e6e6;
     gap: 10px;
     margin-bottom: 20px;
 }
@@ -64,14 +83,14 @@ body {
 
 
 .card__menu h5 {  
-    margin: 8px;
+
     font-size: 1.5rem;
     font-weight: bold;
     text-align: start;
 }
 
 .card__menu p {
-    margin: 8px;
+    
 }
 
 /* Inicio del Hero */
@@ -164,7 +183,6 @@ body {
 
 .platos__img{
     width: 20%;
-    margin-left: 20px;
 }
 .platos__img img {
     width: 100px;
