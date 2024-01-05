@@ -20,7 +20,7 @@ html {
 body {
     background-color: #02290ee7;
     background-image: url(../img/bg-001.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-blend-mode:soft-light;
 
      
@@ -42,17 +42,13 @@ body {
     background-color: #e6e6e6;
 }
 
-.menu {
-    width: 100%;
-}
+
 
 .slide__nav {
     background-image: url(../img/bg-001.jpg);
 }
 /* Fin navbar */
-/* .hero {
-    padding: 0px 10px;
-} */
+
 .hero__carousel {
     width: 100%;
     
@@ -69,15 +65,24 @@ body {
     font-size: 10vw;
 }
 
-
-
+.hero__text p {
+    font-size: 3.5vw ;
+}
 
 /* Fin Caroulsel */
+
+
+/* Inicio del menu */
+.menu {
+    width: 100%;
+}
+
 .card__menu {
     width: 100%;
     background-color: #e6e6e6;
     gap: 10px;
     margin-bottom: 20px;
+    box-shadow: #e6e6e6 ;
 }
 
 .card__img {
@@ -86,15 +91,17 @@ body {
 
 
 .card__menu h5 {  
-
-    font-size: 1.5rem;
+    
+    font-size: 4vw;
     font-weight: bold;
     text-align: start;
 }
 
 .card__menu p {
-    
+    font-size: 2.5vw;
+    color: #e6e6e6;   
 }
+/* Fin del menu */
 
 /* Inicio del Hero */
 .hero {

@@ -24,31 +24,32 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="slide__nav offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="slide__nav offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">Raices</h5>
+            <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link text-light" href="#">Link</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Dropdown
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Action</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Another action</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
                 </ul>
               </li>
             </ul>
@@ -65,29 +66,32 @@
 
   </header>
   <!-- Inicio del hero -->
-  <section class="hero container-fluid justify-content-center mb-5">
+  <section class="hero container-fluid justify-content-center mb-5 p-lg-5">
     <div id="carouselExampleRide" class="carousel slide border border-white rounded-2" data-bs-ride="carousel">
       <div class="hero__carousel carousel-inner">
         <div class="position-relative carousel-item active">
           <img src="./img/plato_navideno.svg" class="hero__img d-block object-fit-cover w-100 rounded-2 " alt="...">
 
           <div class="hero__text position-absolute top-50 start-50 translate-middle fs-1 text-light  ">
-            <h1 class="hero__h1 text-light fw-bold ">Especial Navideño</h1>
-            <p class=" fs-5 text-light  ">Plato tipico navideño Venezolano</p>
+            <h1 class="text-light fw-bold ">Especial Navideño</h1>
+            <p class="text-light ">Plato tipico navideño Venezolano</p>
+            <button type="button" class="btn btn-warning">Ver Menú</button>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./img/arepas_menu.svg" class="hero__img d-block w-100 rounded-2" alt="...">
           <div class="hero__text position-absolute top-50 start-50 translate-middle fs-1 text-light  ">
-            <h1 class=" text-light fw-bold">Menú Venezolano</h1>
-            <p class=" fs-5 text-light  ">Recetas venecianas especiales.</p>
+            <h1 class="text-light fw-bold">Menú Venezolano</h1>
+            <p class="text-light  ">Recetas venecianas especiales.</p>
+            <button type="button" class="btn btn-warning">Ver Menú</button>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./img/mexco_menu.svg" class="hero__img d-block w-100 rounded-2" alt="...">
           <div class="hero__text position-absolute top-50 start-50 translate-middle fs-1 text-light  ">
-            <h1 class=" text-light fw-bold">Menú Mexicano</h1>
-            <p class=" fs-5 text-light  ">Recetas Auténticas con sabor Mexicano.</p>
+            <h1 class="text-light fw-bold">Menú Mexicano</h1>
+            <p class="text-light  ">Recetas Auténticas con sabor Mexicano.</p>
+            <button type="button" class="btn btn-warning">Ver Menú</button>
           </div>
         </div>
       </div>
@@ -105,37 +109,44 @@
 
   <!-- Inicio Card Menu -->
   <section class="container-fluid justify-content-center menu">
-    <div class="row row-cols-2 row-cols-md-4">
+
+    <div class="row row-cols-2 row-cols-md-4 ">
+
       <div class="col">
         <div class="card card__menu rounded-4 text-start p-3">
           <img src="./img/arepas_menu.svg" class="card-img-top card__img object-fit-cover rounded-2 text-start"
             alt="...">
           <h5 class="card-title">Menú Venezolano</h5>
-          <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.</p>
+          <p>Lorem ipsum dolor sit amet. Lorem</p>
+          <button type="button" class="btn btn-warning">Ver Menú</button>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card__menu rounded-4 text-start p-3">
+          <img src="./img/mexco_menu.svg" class="card-img-top card__img object-fit-cover rounded-2 text-start"
+            alt="...">
+          <h5 class="card-title">Menú Mexicano</h5>
+          <p>Lorem ipsum dolor sit amet. Lorem</p>
           <button type="button" class="btn btn-warning">Ver Menú</button>
         </div>
       </div>
       <div class="col">
-        <div class="card card__menu rounded-2 text-start">
-          <img src="./img/mexco_menu.svg" class="card-img-top card__img object-fit-cover rounded-2 text-start" alt="...">
-          <h5 class="card-title">Menú Mexicano</h5>
-          <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.</p>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card card__menu rounded-2 w-70 text-start">
+        <div class="card card__menu rounded-4 text-start p-3">
           <img src="./img/plato_navideno.svg" class="card-img-top card__img object-fit-cover rounded-2 text-start"
             alt="...">
           <h5 class="card-title">Especial Navideño</h5>
-          <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.</p>
+          <p>Lorem ipsum dolor sit amet. Lorem</p>
+          <button type="button" class="btn btn-warning">Ver Menú</button>
         </div>
       </div>
       <div class="col">
-        <div class="card card__menu rounded-2 w-70 text-start">
+        <div class="card card__menu rounded-4 text-start p-3">
           <img src="./img/cocteles_menu.svg" class="card-img-top card__img object-fit-cover rounded-2 text-start"
             alt="...">
           <h5 class="card-title">Cócteles</h5>
-          <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.</p>
+          <p>Lorem ipsum dolor sit amet. Lorem</p>
+          <button type="button" class="btn btn-warning">Ver Menú</button>
         </div>
       </div>
     </div>
