@@ -74,24 +74,24 @@ body {
 
 /* Inicio del menu */
 .menu {
-    width: 100%;
+    width: 90%;
+    margin: 0px 20px;
 }
 
 .card__menu {
     width: 100%;
     background-color: #e6e6e6;
-    gap: 10px;
     margin-bottom: 20px;
     box-shadow: #e6e6e6 ;
 }
 
 .card__img {
-    height: 150px;
+    height: 100px;
+    
 }
 
 
-.card__menu h5 {  
-    
+.card__menu h5 {      
     font-size: 4vw;
     font-weight: bold;
     text-align: start;
@@ -179,9 +179,11 @@ body {
 
 .conatiner__platos {
     width: 100%;
+    margin: auto;
      
 }
 .card__platos {
+    height: 90px;
     background-color: #d8d8d818;
     display: flex;
     justify-content: start;
@@ -195,7 +197,7 @@ body {
     width: 20%;
 }
 .platos__img img {
-    width: 100px;
+    width: 70px;
 }
 .platos__descripcion {
     width: 60%;
@@ -212,6 +214,13 @@ body {
     text-align: start;
 }
 
+.card__platos span {
+    background-color: #e6e6e6;
+    color: black;
+    padding: 2px 12px;
+    border-radius: 20px;
+}
+
 /* Fin platos del menu */
 
 
@@ -221,15 +230,12 @@ body {
 @keyframes show {
     from {
         opacity: 0;
-        translate: -100px 0px;
-        /* scale: 50%; */
-        
+        translate: -100px 0px;        
     }
     
     to{
         opacity: 1;
-        translate: 0 0px;
-        /* scale: 100%; */    
+        translate: 0 0px;        
     }
 }
 
