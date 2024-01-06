@@ -83,6 +83,7 @@ body {
     background-color: #e6e6e6;
     margin-bottom: 20px;
     box-shadow: #e6e6e6 ;
+    gap: 8px;
 }
 
 .card__img {
