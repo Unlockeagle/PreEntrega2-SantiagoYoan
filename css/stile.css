@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 @font-face {
     font-family: 'Gambarino-Regular';
     src: url('../fonts/Gambarino-Regular.woff2') format('woff2'),
@@ -223,6 +225,15 @@ body {
 }
 
 /* Fin platos del menu */
+
+/* Inicio footer */
+.footer__container {
+    width: 100%;
+    background-color: #052b15;
+
+}
+
+/* Fin footer */
 
 
 
