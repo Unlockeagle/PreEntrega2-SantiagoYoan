@@ -130,7 +130,7 @@ body {
 
 /* Inicio Nombre del menu  */
 .title__menu { 
-    margin: 24px 0px 0px 0px;
+    margin-top: 4px;
 }
 .title__menu h3 {
     font-size: 5rem;
@@ -190,7 +190,7 @@ body {
     display: flex;
     justify-content: start;
     padding: 10px 0px;
-    margin: 0px 0px 20px 0px;    
+    margin: 0px 0px 10px 0px;    
     align-items: center;
     border: #fafafa solid 1px;
 }

@@ -18,36 +18,64 @@
 
   <!-- Inicio Cabezera -->
   <header class="">
-    <nav class="navbar fixed-top  ">
-      <div class="container-fluid mx-5 px-0">
+    <nav class="navbar fixed-top ">
+      <div class="navbar container-fluid justify-content-lg-evenly mx-5 px-0">
         <a class="navbar-brand text-light fs-1 text-uppercase fw-bold" href="#">Raices</a>
-        <button class="navbar-toggler navbar__btn" type="button" data-bs-toggle="offcanvas"
+
+        <div class="justify-content-around">
+          <ul class="d-none d-md-flex d-xl-flex container-fluid justify-content-center me-5 ">
+            <li class="nav-item me-4 "><a href="#" class="nav-link px-2 text-light fs-1">Inicio</a></li>
+            <li class="nav-item me-4"><a href="#" class="nav-link px-2 text-light fs-1">Reserva ya!</a></li>
+            <li class="nav-item me-4"><a href="#" class="nav-link me-4 px-2 text-light fs-1">Contacto</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light fs-1" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Menú
+              </a>
+              <ul class="dropdown-menu me-4">
+                <li><a class="dropdown-item text-dark fs-1" href="#">Menú Venezolano</a></li>
+                <li><a class="dropdown-item text-dark fs-1" href="#">Menú mexicano</a></li>
+                <li><a class="dropdown-item text-dark fs-1" href="#">Cocteles y bebidas</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <button class="navbar-toggler navbar__btn d-xl-none " type="button" data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="slide__nav offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+        <div class="slide__nav offcanvas offcanvas-end h-50 border-0 " tabindex="-1" id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">Raices</h5>
+          <div class="offcanvas-header me-5">
+            <h5 class="offcanvas-title text-light fs-1" id="offcanvasNavbarLabel">Raices</h5>
             <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+                <a class="nav-link text-light active" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Link</a>
+                <a class="nav-link text-light" href="#">Reserva ya!</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Contacto</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  Dropdown
+                  Menú
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item text-light" href="#">Action</a></li>
-                  <li><a class="dropdown-item text-light" href="#">Another action</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Menú Venezolano</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Menú mexicano</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Cocteles y bebidas</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
@@ -57,7 +85,7 @@
             </ul>
             <form class="d-flex mt-3" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
           </div>
         </div>
@@ -273,11 +301,25 @@
 
   <footer class="footer__container py-5">
     <ul class="footer__lista nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-light">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-light">About</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Inicio</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Reserva ya!</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Contacto</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Menú
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item text-dark" href="#">Menú Venezolano</a></li>
+          <li><a class="dropdown-item text-dark" href="#">Menú mexicano</a></li>
+          <li><a class="dropdown-item text-dark" href="#">Cocteles y bebidas</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
+        </ul>
+      </li>
+
     </ul>
     <p class="text-center text-light">&copy; 2023 Company, Inc</p>
     <ul class="nav col-sm-4 justify-content-end list-unstyled d-flex">
