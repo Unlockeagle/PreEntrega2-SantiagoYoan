@@ -82,6 +82,10 @@ body {
     box-shadow: #e6e6e6;
     gap: 8px;
 }
+.btn__menu {
+    padding: 10px 40px;
+}
+
 
 .card__img {
     height: 100px;
