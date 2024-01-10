@@ -261,6 +261,23 @@ body {
     font-size: 2rem; 
     color: #e6e6e6;
 }
+.cardsp__img {
+    object-fit: contain;
+    transform-origin: 0 0;
+    overflow: hidden;
+    
+}
+
+.cardsp__img img {
+    transition: transform .25s, visibility .25s ease-in;
+
+}
+
+.cardsp__img img:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+
+}
 /* Menu especial */
 
 /* *******************Responsive******************* */
