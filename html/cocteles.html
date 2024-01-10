@@ -24,9 +24,10 @@
 
         <div class="justify-content-around">
           <ul class="d-none d-md-flex d-xl-flex container-fluid justify-content-center me-5 ">
-            <li class="nav-item me-4 "><a href="../index.html" class="nav-link px-2 text-light fs-1">Inicio</a></li>
-            <li class="nav-item me-4"><a href="#formulario" class="nav-link px-2 text-light fs-1">Reserva ya!</a></li>
-            <li class="nav-item me-4"><a href="#" class="nav-link me-4 px-2 text-light fs-1">Contacto</a></li>
+            <li class="nav-item me-4 "><a href="#" class="nav-link px-2 text-light fs-1">Inicio</a></li>
+            <li class="nav-item me-4"><a href="#" class="nav-link px-2 text-light fs-1">Reserva ya!</a></li>
+            <li class="nav-item me-4"><a href="../html/contacto.html"
+                class="nav-link me-4 px-2 text-light fs-1">Contacto</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-light fs-1" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -65,7 +66,7 @@
                 <a class="nav-link text-light" href="#">Reserva ya!</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Contacto</a>
+                <a class="nav-link text-light" href="../html/contacto.html">Contacto</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
@@ -95,37 +96,27 @@
 
 
   </header>
+
   <!-- Inicio del hero -->
+
   <section class="hero container-fluid justify-content-center mb-3 p-lg-5">
     <div id="carouselExampleRide" class="carousel slide border border-white rounded-2" data-bs-ride="carousel">
-      <div class="hero__carousel carousel-inner">
+      <div class="hero__c carousel-inner">        
         <div class="hero__c position-relative carousel-item active">
-          <img src="../img/plato_navideno.svg" class="hero__img d-block object-fit-cover w-100 rounded-2 " alt="...">
+          <img src="../img//cocteles_001.jpg" class="hero__img d-block object-fit-cover w-100 rounded-2 " alt="...">
+          <div class="hero__text position-absolute top-50 start-50 translate-middle fs-1 text-light  ">
+            <h1 class="text-light fw-bold ">Cocteles y Bebidas</h1>
+            <p class="text-light ">Disfruta de gran variaedad de bebidas</p>
+            <a href="#venezolano"><button type="button" class="btn btn-warning fs-5 fw-bolder px-4">Ver Menú</button></a>
+          </div>
+        </div>
 
-          <div class="hero__text position-absolute top-50 start-50 translate-middle fs-1 text-light  ">
-            <h1 class="text-light fw-bold ">Especial Navideño</h1>
-            <p class="text-light ">Plato tipico navideño Venezolano</p>
-            <a href="#venezolano">
-              <button type="button" class="btn btn-warning fs-5 fw-bolder px-4">Ver Menú</button>
-            </a>
-          </div>
-        </div>
         <div class="hero__c carousel-item">
-          <img src="../img/arepas_menu.svg" class="hero__img d-block w-100 rounded-2" alt="...">
+          <img src="../img/Contacto.jpg" class="hero__img d-block w-100 rounded-2" alt="...">
           <div class="hero__text position-absolute top-50 start-50 translate-middle fs-1 text-light  ">
-            <h1 class="text-light fw-bold">Menú Venezolano</h1>
-            <p class="text-light  ">Recetas venecianas especiales.</p>
-            <a href="#venezolano">
-              <button type="button" class="btn btn-warning fs-5 fw-bolder px-4">Ver Menú</button>
-            </a>
-          </div>
-        </div>
-        <div class="hero__c carousel-item">
-          <img src="../img/mexco_menu.svg" class="hero__img d-block w-100 rounded-2" alt="...">
-          <div class="hero__text position-absolute top-50 start-50 translate-middle fs-1 text-light  ">
-            <h1 class="text-light fw-bold">Menú Mexicano</h1>
-            <p class="text-light  ">Recetas Auténticas con sabor Mexicano.</p>
-            <a href="#venezolano">
+            <h1 class="text-light fw-bold">Coctactanos</h1>
+            <p class="text-light  ">Reserva una mesa y disfruta de una buena comida con tus amigos</p>
+            <a href="../html/contacto.html">
               <button type="button" class="btn btn-warning fs-5 fw-bolder px-4">Ver Menú</button>
             </a>
           </div>
@@ -144,13 +135,236 @@
   <!-- Fin del hero -->
 
   <!-- Inicio titulos del menu -->
-  <div class="title__menu">
-    <h3 class=" text-light text-center ">Contactanos</h3>    
-    <div class="title__entrada mb-4">      
-      <p class="text-light text-center">Para reservar</p>      
+  <div class="title__menu my-5" id="venezolano">
+    <h3 class=" text-light text-center ">Cocteles y Bebidas</h3>
+    <div class="title__entrada mb-4">
+      <p class="text-light text-center"><span>Mexico</span></p>
     </div>
   </div>
   <!-- Fin titulos del menu -->
+
+  <!-- Card de platos Venezolanos -->
+
+  <main class="conatiner__platos container-sm container-fluid justify-content-center">
+
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-2">
+
+      <div class="card__animated col">
+
+        <div class="card__platos container-fluid justify-content-around rounded-2">
+          <div class="platos__img">
+            <img src="../img/arepas.webp" alt="">
+          </div>
+          <div class="platos__descripcion text-light">
+            <h3>Arepas (5unds)</h3>
+            <p>De pollo, Carne Mechada, Queso, Jamon con queso (A tu preferencia) </p>
+            <span>Precio 11,00 €</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card__animated col">
+
+        <div class="card__platos container-fluid justify-content-around rounded-2">
+          <div class="platos__img">
+            <img class="w-75" src="../img/empanadas.webp" alt="">
+          </div>
+
+          <div class="platos__descripcion text-light">
+            <h3>Empanadas</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <span>Precio 8,00 €</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card__animated col">
+
+        <div class="card__platos container-fluid justify-content-around rounded-2">
+          <div class="platos__img">
+            <img src="../img/pastelitos.webp" alt="">
+          </div>
+
+          <div class="platos__descripcion text-light">
+            <h3>Pastelitos Andinos (4unds)</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <span>Precio 7,00 €</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card__animated col">
+
+        <div class="card__platos container-fluid justify-content-around rounded-2">
+          <div class="platos__img">
+
+            <img src="../img/burrito_de_carne.png" alt="">
+          </div>
+
+          <div class="platos__descripcion text-light">
+            <h3>Burrito de carne</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <span>Precio 8,00 €</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card__animated col">
+
+        <div class="card__platos container-fluid justify-content-around rounded-2">
+          <div class="platos__img">
+
+            <img src="../img/nachos.png" alt="">
+          </div>
+
+          <div class="platos__descripcion text-light">
+            <h3>Nachos</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <span>Precio 5,00 €</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card__animated col">
+
+        <div class="card__platos container-fluid justify-content-around rounded-2">
+          <div class="platos__img">
+
+            <img src="../img/enchiladas.png" alt="">
+          </div>
+
+          <div class="platos__descripcion text-light">
+            <h3>Enchiladas</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <span>Precio 8,00 €</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <!-- Card de platos -->
+
+  <!-- Inicio titulos del menu -->
+  <div class="title__menu my-5" id="venezolano">
+    <h3 class=" text-light text-center ">Cocteles y Bebidas</h3>
+    <div class="title__entrada mb-4">
+      <p class="text-light text-center"><span>Venezuela</span></p>
+    </div>
+  </div>
+  <!-- Fin titulos del menu -->
+
+  <!-- Card de platos Venezolanos -->
+
+  <main class="conatiner__platos my-5 container-sm container-fluid justify-content-center">
+
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-2">
+
+      <div class="card__animated col">
+
+        <div class="card__platos container-fluid justify-content-around rounded-2">
+          <div class="platos__img">
+            <img src="../img/arepas.webp" alt="">
+          </div>
+          <div class="platos__descripcion text-light">
+            <h3>Arepas (5unds)</h3>
+            <p>De pollo, Carne Mechada, Queso, Jamon con queso (A tu preferencia) </p>
+            <span>Precio 11,00 €</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card__animated col">
+
+        <div class="card__platos container-fluid justify-content-around rounded-2">
+          <div class="platos__img">
+            <img class="w-75" src="../img/empanadas.webp" alt="">
+          </div>
+
+          <div class="platos__descripcion text-light">
+            <h3>Empanadas</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <span>Precio 8,00 €</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card__animated col">
+
+        <div class="card__platos container-fluid justify-content-around rounded-2">
+          <div class="platos__img">
+            <img src="../img/pastelitos.webp" alt="">
+          </div>
+
+          <div class="platos__descripcion text-light">
+            <h3>Pastelitos Andinos (4unds)</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <span>Precio 7,00 €</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card__animated col">
+
+        <div class="card__platos container-fluid justify-content-around rounded-2">
+          <div class="platos__img">
+
+            <img src="../img/burrito_de_carne.png" alt="">
+          </div>
+
+          <div class="platos__descripcion text-light">
+            <h3>Burrito de carne</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <span>Precio 8,00 €</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card__animated col">
+
+        <div class="card__platos container-fluid justify-content-around rounded-2">
+          <div class="platos__img">
+
+            <img src="../img/nachos.png" alt="">
+          </div>
+
+          <div class="platos__descripcion text-light">
+            <h3>Nachos</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <span>Precio 5,00 €</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card__animated col">
+
+        <div class="card__platos container-fluid justify-content-around rounded-2">
+          <div class="platos__img">
+
+            <img src="../img/enchiladas.png" alt="">
+          </div>
+
+          <div class="platos__descripcion text-light">
+            <h3>Enchiladas</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <span>Precio 8,00 €</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <!-- Card de platos -->
+
+  <!-- Inicio titulos del menu -->
+  <div class="title__menu mb-5">
+    <h3 class=" text-light text-center ">Auténtica Gastronomia</h3>
+    <div class="title__entrada mb-4">
+      <p class="text-light text-center">Mexicana y Venezolana</p>
+    </div>
+  </div>
+  <!-- Fin titulos del menu -->
+
 
   <!-- Inicio Cards Menu -->
   <section class="container-fluid justify-content-center menu">
@@ -174,7 +388,7 @@
             alt="...">
           <h5 class="card-title">Menú Mexicano</h5>
           <p>Lorem ipsum dolor sit amet. Lorem</p>
-          <a href="#venezolano" class="nav-link d-inline-flex justify-content-center">
+          <a href="../html/mexicano.html" class="nav-link d-inline-flex justify-content-center">
             <button type="button" class="btn__menu btn btn-warning fs-4 d-inline-block w-100">Ver Menú</button>
           </a>
         </div>
@@ -185,7 +399,7 @@
             alt="...">
           <h5 class="card-title">Especial Navideño</h5>
           <p>Lorem ipsum dolor sit amet. Lorem</p>
-          <a href="#venezolano" class="nav-link d-inline-flex justify-content-center">
+          <a href="../html/especial" class="nav-link d-inline-flex justify-content-center">
             <button type="button" class="btn__menu btn btn-warning fs-4 d-inline-block w-100">Ver Menú</button>
           </a>
         </div>
@@ -196,7 +410,7 @@
             alt="...">
           <h5 class="card-title">Cócteles</h5>
           <p>Lorem ipsum dolor sit amet. Lorem</p>
-          <a href="#venezolano" class="nav-link d-inline-flex justify-content-center">
+          <a href="../html/cocteles" class="nav-link d-inline-flex justify-content-center">
             <button type="button" class="btn__menu btn btn-warning fs-4 d-inline-block w-100">Ver Menú</button>
           </a>
         </div>
@@ -205,43 +419,13 @@
   </section>
   <!-- Inicio Cards Menu -->
 
-  <!-- Inicio titulos del menu -->
-  <div class="title__menu" id="venezolano">
-    <h3 class=" text-light text-center ">Menú Venezolano</h3>    
-    <div class="title__entrada mb-4">      
-      <p class="text-light text-center"><span>Entradas</span></p>      
-    </div>
-  </div>
-  <!-- Fin titulos del menu -->
 
-  <!-- Inicio Formulario de contacto -->
-  <section class="container container-fluid col-xl-3">
-
-    <div class="mb-3" id="formulario">
-      <label for="exampleFormControlInput1" class="form-label link-light fs-4">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    </div>
-    <div class="mb-3">
-      <label for="date" class="form-label link-light fs-4">Fecha de tu reserva</label>
-      <input type="date" class="form-control" name="date" id="date">
-    </div>
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label link-light fs-4">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-    <div class="col-auto">
-      <button type="submit" class="btn btn-warning mb-3 fs-4 d-inline-block w-100">Reserva ya!</button>
-    </div>
-  </section>
-  
-  
-  <!-- Fin Formulario de contacto -->
 
 
   <!-- Inicio del footer -->
 
 
-  <footer class="footer__container py-5">
+  <footer class="footer__container mt-5 py-5">
     <ul class="footer__lista nav justify-content-center border-bottom pb-3 mb-5">
       <li class="nav-item me-3"><a href="#" class="nav-link px-2 text-light">Inicio</a></li>
       <li class="nav-item me-3"><a href="#" class="nav-link px-2 text-light">Reserva ya!</a></li>

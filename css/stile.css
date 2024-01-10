@@ -241,6 +241,28 @@ body {
 
 /* Fin footer */
 
+/* Menu especial */
+.card__especial {
+    color: #fafafa;
+    border: #fafafa solid 1px;
+    background-color: #f1f1f118;
+    
+}
+
+.card__especial h5 {
+    font-size: 5rem;
+}
+
+.card__especial p {
+    font-size: 2.5rem; 
+    color: #fafafa
+}
+.card__especial p small {
+    font-size: 2rem; 
+    color: #e6e6e6;
+}
+/* Menu especial */
+
 /* *******************Responsive******************* */
 @media (width >=768px) {
     .hero {
