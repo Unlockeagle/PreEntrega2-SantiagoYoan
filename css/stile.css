@@ -82,6 +82,7 @@ body {
     box-shadow: #e6e6e6;
     gap: 8px;
 }
+
 .btn__menu {
     padding: 10px 40px;
 }
@@ -246,7 +247,10 @@ body {
     color: #fafafa;
     border: #fafafa solid 1px;
     background-color: #f1f1f118;
-    
+    object-fit: cover;
+    transform-origin: 0 0;
+    overflow: hidden;
+
 }
 
 .card__especial h5 {
@@ -254,18 +258,20 @@ body {
 }
 
 .card__especial p {
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     color: #fafafa
 }
+
 .card__especial p small {
-    font-size: 2rem; 
+    font-size: 2rem;
     color: #e6e6e6;
 }
+
 .cardsp__img {
     object-fit: contain;
     transform-origin: 0 0;
     overflow: hidden;
-    
+
 }
 
 .cardsp__img img {
@@ -278,6 +284,7 @@ body {
     transform: scale(1.5);
 
 }
+
 /* Menu especial */
 
 /* *******************Responsive******************* */
@@ -285,6 +292,7 @@ body {
     .hero {
         width: 90%;
     }
+
     .hero__c img {
         height: 400px;
         object-fit: cover;
@@ -293,18 +301,20 @@ body {
     .hero h1 {
         font-size: 7vw;
     }
+
     .hero p {
         font-size: 2.2vw;
     }
 
     .menu {
         width: 80%;
-        
+
     }
 
     .card__menu h5 {
         font-size: 2vw;
     }
+
     .card__menu p {
         font-size: 1vw;
     }
