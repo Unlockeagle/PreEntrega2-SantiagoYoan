@@ -54,11 +54,20 @@ body {
 }
 
 /* Inicio Caroulsel */
+
+.hero {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.hero__img img {
+    border: #fafafa solid 2px;
+
+}
 .hero__img {
     filter: brightness(0.5);
     object-fit: contain;
 }
-
 
 .hero__text h1 {
     font-size: 10vw;
@@ -108,18 +117,6 @@ body {
 
 /* Fin del menu */
 
-/* Inicio del Hero */
-.hero {
-    margin-top: 80px;
-    width: 100%;
-}
-
-.hero__img img {
-    border: #fafafa solid 2px;
-
-}
-
-/* Fin del Hero */
 
 /* Inicio Cards de menu */
 
@@ -327,6 +324,20 @@ body {
 
 }
 
+@media (width >=1024px) {
+    .hero {
+        width: 100%;
+
+    }
+    .hero__carousel {
+        height: 500px;
+    }
+
+    .hero__c img {
+        height: 500px;
+        object-fit: cover;
+    }
+}
 /* *******************Responsive******************* */
 
 /* ***************animacion************ */
